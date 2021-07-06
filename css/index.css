@@ -1,42 +1,83 @@
+/* -----------Common CSS------------- */
 
-/*logo title and navbar*/
+section{
+  padding: 7%;
+}
+
+.section-heading{
+  text-align: center;
+}
+
+/* ---------------Navbar-------------- */
+
+.navbar{
+  padding-left: 185px;
+  padding-right: 185px;
+  height: 85px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-brand{
+  font-family: "Comfortaa";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-btn{
+  border-radius: 35px;
+  font-size: 1.1rem;
+}
+
+.nav-btn a.nav-link{
+  color: #fff !important;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+  font-family: "Comfortaa";
+}
+
+/* ---------------Section - Title----------- */
+
 #title{
   background-color: White;
   font-family: "Comfortaa", sans-serif;
-  padding-bottom: 0.5%;
-  color: #000;
-}
-.navbar{
-  padding: 7px 0 5rem 0;
-}
-.navbar-brand{
-  font-family: "Comfortaa";
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin-left: 20px;
-}
-.nav-btn{
-  border-radius: 25px;
-}
-.nav-item{
-  padding: 0 20px;
-}
-.nav-link{
-  font-size: 1.2rem;
-  font-family: "Comfortaa";
+  text-align: center;
 }
 
+.title-image{
+  width: 70%;
+  height: 70%;
+}
 
+/* ---------------Section - Brand-description----------- */
 
-/*foot*/
-#footer{
-  margin: 20px;
+#brand-description{
+  background-color: #fafafa;
+}
+
+.brand-desc-tile{
+  margin: 0 10%;
+  background-color: #fff;
+}
+
+.brand-desc-img{
+  width: 80%;
+}
+
+/* ---------------Section - Footer----------- */
+
+#foot{
   font-size: 1rem;
-  padding: 10% 0;
   background-color: inherit;
-  position: relative;
   bottom: 250px;
+  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2), 0 -6px 10px 0 rgba(0, 0, 0, 0.19);
 }
+
 .foot-icon{
   margin: 20px 10px;
   position: relative;
@@ -44,10 +85,11 @@
   color: #000;
   width: 30px;
 }
+
 .foot-icon:hover{
   color: #0a81ab;
 }
+
 .para-foot{
   text-align: center;
 }
-/*END*/
