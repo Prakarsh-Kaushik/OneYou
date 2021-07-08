@@ -1,5 +1,78 @@
-<<<<<<< HEAD
-css
-=======
-css
->>>>>>> 9662bcaf62ba2d18d66dbc69128a82e4d4416347
+/* -----------Common CSS------------- */
+
+section{
+  padding: 7%;
+}
+
+.section-heading{
+  text-align: center;
+}
+
+/* ---------------Navbar-------------- */
+
+.navbar{
+  padding-left: 185px;
+  padding-right: 185px;
+  height: 85px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#nav1
+{
+    background-color: #fff; /*whichever you want*/
+    opacity: 0.98;
+
+}
+
+.navbar-brand{
+  font-family: "Comfortaa";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav-btn{
+  border-radius: 35px;
+  background-color: #0070f4;
+  padding: 5px 15px;
+}
+
+.nav-btn a.nav-link{
+  color: #fff !important;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.nav-item{
+  padding: 0 23px;
+}
+
+.nav-link{
+  font-size: 1.1rem;
+  font-family: "Comfortaa";
+}
+
+/* ---------------Section - Footer----------- */
+
+#foot{
+  font-size: 1rem;
+  background-color: inherit;
+  bottom: 250px;
+  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2), 0 -6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foot-icon{
+  margin: 20px 10px;
+  position: relative;
+  left: 42%;
+  color: #000;
+  width: 30px;
+}
+
+.foot-icon:hover{
+  color: #0a81ab;
+}
+
+.para-foot{
+  text-align: center;
+}
