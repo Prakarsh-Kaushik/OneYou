@@ -1,7 +1,7 @@
 /* -----------Common CSS------------- */
 
-section{
-  padding: 7%;
+body{
+  font-family: "Comfortaa";
 }
 
 .section-heading{
@@ -11,8 +11,8 @@ section{
 /* ---------------Navbar-------------- */
 
 .navbar{
-  padding-left: 185px;
-  padding-right: 185px;
+  padding-left: 140px;
+  padding-right: 140px;
   height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -41,15 +41,36 @@ section{
   color: #fff !important;
   font-size: 0.9rem;
   padding: 0;
+
 }
 
 .nav-item{
-  padding: 0 23px;
+  padding: 0 20px;
+  margin-left: 5px;
 }
 
 .nav-link{
   font-size: 1.1rem;
   font-family: "Comfortaa";
+}
+
+/* section option */
+.option{
+  padding: 20% 20%;
+  text-align: center;
+}
+
+h1{
+  font-weight: bold;
+}
+.student{
+  margin: 5% 10%;
+  border-radius: 10px;
+ text-align: center;
+}
+.professional{
+  margin: 5% 10%;
+  border-radius: 10px;
 }
 
 
