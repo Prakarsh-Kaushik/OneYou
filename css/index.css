@@ -1,4 +1,7 @@
 /* -----------Common CSS------------- */
+body{
+  padding-top: 50px;
+}
 
 section{
   padding: 7%;
@@ -11,41 +14,53 @@ section{
 /* ---------------Navbar-------------- */
 
 .navbar{
-  padding-left: 185px;
-  padding-right: 185px;
+  padding-left: 140px;
+  padding-right: 140px;
   height: 85px;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#nav1
+{
+    background-color: #fff; /*whichever you want*/
+    opacity: 0.98;
+
 }
 
 .navbar-brand{
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa', cursive;
   font-size: 2rem;
   font-weight: bold;
+  margin-right: 20px;
 }
 
 .nav-btn{
   border-radius: 35px;
-  font-size: 1.1rem;
+  background-color: #0070f4;
+  padding: 5px 15px;
 }
 
 .nav-btn a.nav-link{
   color: #fff !important;
+  font-size: 0.9rem;
+  padding: 0;
 }
 
 .nav-item{
-  padding: 0 15px;
+  padding: 0 20px;
+  margin-left: 5px;
 }
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa', cursive;
 }
 
 /* ---------------Section - Title----------- */
 
 #title{
   background-color: White;
-  font-family: "Comfortaa", sans-serif;
+  font-family: 'Comfortaa', cursive;
   text-align: center;
 }
 
@@ -67,6 +82,55 @@ section{
 
 .brand-desc-img{
   width: 80%;
+}
+
+/* ---------------Section - Live Pages----------- */
+.live-page-image{
+  width: 100%;
+  border-radius:100%;
+  border:5px solid #fff;
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------Section - Pricing----------- */
+.card{
+  position: relative;
+}
+
+.pricing-banner-student{
+  position: absolute;
+  right: 0;
+  top: -15px;
+  background-color: #fff;
+  border: 2px solid #384ad3;
+}
+
+.pricing-banner-professional{
+  position: absolute;
+  right: 0;
+  top: -15px;
+  background-color: #fff;
+  border: 2px solid #ed5829;
+}
+
+.pricing-list{
+  list-style-type: none;
+}
+
+.pricing-tick{
+  color: #50be7e;
+}
+
+/* ---------------Section - Contact-Us-Whatsapp----------- */
+.div-contact-us-whatsapp{
+  width: 80%;
+  padding: 2%;
+  background-color: #0070f4;
+}
+
+/* ---------------Section - Our-Story----------- */
+#contact-us-freetrial{
+  background-color: #fafafa;
 }
 
 /* ---------------Section - Footer----------- */
