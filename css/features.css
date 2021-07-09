@@ -1,11 +1,7 @@
 /* -----------Common CSS------------- */
-
-section{
-  padding: 7%;
-}
-
-.section-heading{
-  text-align: center;
+body{
+  padding-top: 10%;
+  font-family: 'Comfortaa', cursive;
 }
 
 /* ---------------Navbar-------------- */
@@ -19,16 +15,14 @@ section{
 
 #nav1
 {
-    background-color: #fff; /*whichever you want*/
+    background-color: #fff;
     opacity: 0.98;
-
 }
 
 .navbar-brand{
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa', cursive;
   font-size: 2rem;
   font-weight: bold;
-  margin-right: 20px;
 }
 
 .nav-btn{
@@ -49,30 +43,133 @@ section{
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa', cursive;
+}
+
+/* ---------------Section - Title----------- */
+
+#title{
+  padding: 0 15%;
+}
+
+.title-headline{
+  font-size: 5rem;
+}
+
+.title-caption{
+  font-size: 1.2rem;
+}
+
+.title-col-left{
+  padding: 0;
+  padding-right: 60px;
+}
+
+.title-col-right{
+  padding: 0;
+}
+
+.title-btn{
+  border-radius: 35px;
+  background-color: #0070f4;
+  padding: 5px 25px;
+}
+
+.title-btn-link{
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0;
+}
+
+.title-img{
+  float: right;
+  width: 130%;
+  position: relative;
+  right: 15px;
+}
+
+/* ---------------Section - Feature Card----------- */
+
+#feature-card{
+  padding: 5% 10%;
+}
+
+.feature-tile{
+  background-image: url("../images/feature-tile-bg.png");
+  background-size: 70% 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.feature-card-row{
+  margin: 10px 0;
+}
+
+.feature-text{
+  margin: auto;
+  vertical-align: middle;
+}
+
+.feature-tile-image{
+  width: 85%;
+}
+
+.feature-tile-empty{
+  text-align: center;
+}
+
+/* ---------------Section - Contact-Us-freetrial----------- */
+#contact-us-freetrial{
+  background-color: #fafafa;
+  text-align: center;
+  padding: 1%;
+}
+
+.contact-text-1{
+  font-size: 2.5rem;
+  margin: 30px;
+}
+
+.contact-text-2{
+  font-size: 1.3rem;
+  margin: 30px;
+}
+
+.contact-freetrial-button{
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 0.9rem;
+  margin: 10px;
+  margin-bottom: 30px;
 }
 
 /* ---------------Section - Footer----------- */
 
 #foot{
-  font-size: 1rem;
-  background-color: inherit;
-  bottom: 250px;
-  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2), 0 -6px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
-.foot-icon{
-  margin: 20px 10px;
-  position: relative;
-  left: 42%;
-  color: #000;
-  width: 30px;
-}
-
-.foot-icon:hover{
-  color: #0a81ab;
+  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 3% 10%;
 }
 
 .para-foot{
-  text-align: center;
+  text-align: left;
+  color: #737373;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.div-foot-center-aligned{
+  display:flex;
+  align-items:center;
+}
+
+.link-foot, .link-foot:hover{
+  color: #737373;
+  text-decoration: none;
+  font-weight: 900;
 }
