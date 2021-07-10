@@ -73,24 +73,24 @@ section{
 /* ---------------Section - Footer----------- */
 
 #foot{
-  font-size: 1rem;
-  background-color: inherit;
-  bottom: 250px;
-  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2), 0 -6px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
-.foot-icon{
-  margin: 20px 10px;
-  position: relative;
-  left: 42%;
-  color: #000;
-  width: 30px;
-}
-
-.foot-icon:hover{
-  color: #0a81ab;
+  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 3% 10%;
 }
 
 .para-foot{
-  text-align: center;
+  text-align: left;
+  color: #737373;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.div-foot-center-aligned{
+  display:flex;
+  align-items:center;
+}
+
+.link-foot, .link-foot:hover{
+  color: #737373;
+  text-decoration: none;
+  font-weight: 900;
 }

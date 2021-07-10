@@ -58,25 +58,25 @@
 
 
   <!-- Section - Form (to take input from user about his portfolio)-->
-  <section class="form">
+  <section id="form">
     <div class="container-fluid">
-      <h2>Student Plan Registration</h2>
-      <form class="" action="YamparalaMedia@gmail.com" method="post">
+
+      <form class="form" action="YamparalaMedia@gmail.com" method="post">
         <fieldset>
-          <input type="text" name="name" placeholder="Name" required>
-          <input type="text" name="tagline" placeholder="Tagline *Web Designer etc" required>
-          <input type="text" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-          <input type="tel" name="number" placeholder="Whatsapp " required pattern=[0-9]{3}[0-9]{4}[0-9]{3} min="0000000000" max="9999999999">
-          <textarea name="About You" placeholder="About You " rows="8" cols="80" required></textarea>
-          <textarea name="Education" placeholder="Education" rows="8" cols="80" required></textarea>
-          <input type="text" name="skills" placeholder="Skills" required>
-          <input type="text" name="projects" placeholder="Projects" required>
+          <h2>Student Plan Registration</h2>
+          <input class="ip-box" type="text" name="name" placeholder="Name" required>
+          <input class="ip-box" type="text" name="tagline" placeholder="Tagline *Web Designer etc" required>
+          <br>
+          <input class="ip-box" type="text" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <input class="ip-box" type="tel" name="number" placeholder="Whatsapp " required pattern=[0-9]{3}[0-9]{4}[0-9]{3} min="0000000000" max="9999999999">
+          <textarea class="ip-box" name="About You" placeholder="About You " rows="5" cols="50" required></textarea>
+          <textarea class="ip-box" name="Education" placeholder="Education" rows="5" cols="50" required></textarea>
+          <textarea class="ip-box" name="Skills" placeholder="Skills" rows="2" cols="50" required></textarea>
+          <textarea class="ip-box" name="Projects" placeholder="Projects" rows="2" cols="50" required></textarea>
 
           <!-- Give user option to choose from various templates using radio buttons and button for preview -->
-          <h3>Choose a Design Template, Click Preview and Explore*</h3>
-          <input type="radio" name="template1">
-          <p>Template 1</p>
-          <a href="https://www.oneyou.in/yamparala"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
+          <p class="template-choose">Choose a Design Template, Click Preview and Explore*</p>
+          <input type="radio" name="template1"> <p>Template 1</p> <a href="https://www.oneyou.in/yamparala"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
           <input type="radio" name="template2">
           <p>Template 2</p>
           <a href="https://www.oneyou.in/abdul"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
@@ -89,29 +89,31 @@
           <input type="radio" name="template5">
           <p>Template 5</p>
           <a href="https://www.oneyou.in/mudassar"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
-        </fieldset>
-      </form>
+<p>Now the final step, 👇 please schedule a call with our designer. to understand your need</p>
       <!-- Calendly inline widget begin -->
       <div class="calendly-inline-widget" data-url="https://calendly.com/yamparalamedia/oneyou" style="min-width:320px;height:630px;"></div>
       <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
       <!-- Calendly inline widget end -->
+<br>
+      <!-- Submit button -->
+      <button class="btn btn-lg btn-primary" type="button" name="button">Submit</button>
+    </fieldset>
+  </form>
     </div>
   </section>
-
   <!-- Footer -->
-  <footer id="foot">
+  <section id="foot">
     <div class="container-fluid">
-      <p class="para-foot">© 2025 OneYou.in. All Rights Reserved</p>
-
-      <a href="https://twitter.com/yamparalarahul1"><i class="fab foot-icon fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/yamparalarahul/"><i class="fab foot-icon fa-linkedin"></i></a>
-      <a href="https://api.whatsapp.com/send/?phone=918897560612"><i class="fab foot-icon fa-whatsapp"></i></a>
-      <a href="mailto: YamparalaMedia@gmail.com"><i class="fas foot-icon fa-envelope"></i></a>
-
-      <p class="para-foot">Made with <i class="fas fa-heart"></i> in <img src="images\india.png" alt="India"> by <a id="linkedin" href="https://www.linkedin.com/in/yamparalarahul/">Rahul</a></p>
+      <div class="row">
+        <div class="col-md-8">
+          <p class="para-foot">© 2025 OneYou.in. All Rights Reserved.</p>
+          <p class="para-foot">Contact Details - Email - YamparalaMedia@gmail.com</p>
+        </div>
+        <div class="col div-foot-center-aligned">
+          <p class="para-foot">Made with love by&nbsp<a class="link-foot" href="https://twitter.com/yamparalarahul1" target="_blank">Rahul</a>&nbspfrom 🏠</p>
+        </div>
+      </div>
     </div>
-
-
-  </footer>
+  </body>
 
 </html>
