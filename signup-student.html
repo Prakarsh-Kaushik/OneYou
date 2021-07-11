@@ -30,31 +30,31 @@
 <body>
 
   <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav1">
-      <a class="navbar-brand" href="index.html">OneYou.in</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#pricing">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#livepages">Live Pages</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="features.html">Features</a>
-          </li>
-          <li class="nav-item">
-            <button class="btn nav-btn btn-sm btn-primary" type="button" name="button"> <a class="nav-link" href="sign-up.html">Start Free Trial</a></button>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav1">
+    <a class="navbar-brand" href="index.html">OneYou.in</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#livepages">Live Pages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="features.html">Features</a>
+        </li>
+        <li class="nav-item">
+          <button class="btn nav-btn btn-sm btn-primary" type="button" name="button"> <a class="nav-link" href="sign-up.html">Start Free Trial</a></button>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
   <!-- Section - Form (to take input from user about his portfolio)-->
@@ -63,44 +63,67 @@
 
       <form class="form" action="YamparalaMedia@gmail.com" method="post">
         <fieldset>
-          <h2>Student Plan Registration</h2>
+          <h3>Student Plan Registration</h3>
           <input class="ip-box" type="text" name="name" placeholder="Name" required>
           <input class="ip-box" type="text" name="tagline" placeholder="Tagline *Web Designer etc" required>
           <br>
           <input class="ip-box" type="text" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-        <input class="ip-box" type="tel" name="number" placeholder="Whatsapp " required pattern=[0-9]{3}[0-9]{4}[0-9]{3} min="0000000000" max="9999999999">
-          <textarea class="ip-box" name="About You" placeholder="About You " rows="5" cols="50" required></textarea>
-          <textarea class="ip-box" name="Education" placeholder="Education" rows="5" cols="50" required></textarea>
-          <textarea class="ip-box" name="Skills" placeholder="Skills" rows="2" cols="50" required></textarea>
-          <textarea class="ip-box" name="Projects" placeholder="Projects" rows="2" cols="50" required></textarea>
+          <input class="ip-box" type="tel" name="number" placeholder="Whatsapp " required pattern=[0-9]{3}[0-9]{4}[0-9]{3} min="0000000000" max="9999999999">
+          <textarea class="ip-box" name="About You" placeholder="About You " rows="3" cols="49" required></textarea>
+          <textarea class="ip-box" name="Education" placeholder="Education" rows="3" cols="49" required></textarea>
+          <textarea class="ip-box" name="Skills" placeholder="Skills" rows="1" cols="49" required></textarea>
+          <textarea class="ip-box" name="Projects" placeholder="Projects" rows="1" cols="49" required></textarea>
 
           <!-- Give user option to choose from various templates using radio buttons and button for preview -->
-          <p class="template-choose">Choose a Design Template, Click Preview and Explore*</p>
-          <input type="radio" name="template1"> <p>Template 1</p> <a href="https://www.oneyou.in/yamparala"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
-          <input type="radio" name="template2">
-          <p>Template 2</p>
-          <a href="https://www.oneyou.in/abdul"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
-          <input type="radio" name="template3">
-          <p>Template 3</p>
-          <a href="https://www.oneyou.in/chaitanya"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
-          <input type="radio" name="template4">
-          <p>Template 4</p>
-          <a href="https://www.oneyou.in/shubh"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
-          <input type="radio" name="template5">
-          <p>Template 5</p>
-          <a href="https://www.oneyou.in/mudassar"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a>
-<p>Now the final step, 👇 please schedule a call with our designer. to understand your need</p>
-      <!-- Calendly inline widget begin -->
-      <div class="calendly-inline-widget" data-url="https://calendly.com/yamparalamedia/oneyou" style="min-width:320px;height:630px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-      <!-- Calendly inline widget end -->
-<br>
-      <!-- Submit button -->
-      <button class="btn btn-lg btn-primary" type="button" name="button">Submit</button>
-    </fieldset>
-  </form>
+          <div class="template-div">
+            <!-- text to choose a template -->
+            <p class="template-choose">Choose a Design Template, Click Preview and Explore*</p>
+            <!-- Table for positioning Radio button template text and preview button side by side -->
+            <table >
+              <tr>
+                <td><input class="radio" type="radio" name="template1"></td>
+                <td><p class="template-text">Template 1</p></td>
+                <td><a target="_blank" href="https://www.oneyou.in/yamparala"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a></td>
+              </tr>
+              <tr>
+                <td><input class="radio" type="radio" name="template2"></td>
+                <td><p class="template-text">Template 2</p></td>
+                <td><a target="_blank" href="https://www.oneyou.in/abdul"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a></td>
+              </tr>
+              <tr>
+                <td><input class="radio" type="radio" name="template3"></td>
+                <td><p class="template-text">Template 3</p></td>
+                <td><a target="_blank" href="https://www.oneyou.in/chaitanya"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a></td>
+              </tr>
+              <tr>
+                <td><input class="radio" type="radio" name="template4"></td>
+                <td><p class="template-text">Template 4</p></td>
+                <td><a target="_blank" href="https://www.oneyou.in/shubh"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a></td>
+              </tr>
+              <tr>
+                <td><input class="radio" type="radio" name="template5"></td>
+                <td><p class="template-text">Template 5</p></td>
+                <td><a target="_blank" href="https://www.oneyou.in/mudassar"><button class="btn btn-sm btn-primary" type="button" name="button">Preview</button></a></td>
+              </tr>
+            </table>
+
+          </div>
+
+          <!-- Text telling to book a call if needed -->
+          <p class="finalstep-text">Not sure of the above templates, Let's get a custom design. 👇 schedule a call </p>
+
+          <!-- Calendly inline widget begin -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/yamparalamedia/oneyou" style="min-width:320px;height:630px;padding-bottom:40px"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <!-- Calendly inline widget end -->
+
+          <!-- Submit button -->
+          <button class="btn submit-btn btn-lg btn-primary" type="button" name="button">Submit</button>
+        </fieldset>
+      </form>
     </div>
   </section>
+
   <!-- Footer -->
   <section id="foot">
     <div class="container-fluid">
@@ -114,6 +137,7 @@
         </div>
       </div>
     </div>
-  </body>
+</body>
 
 </html>
+<!-- END -->

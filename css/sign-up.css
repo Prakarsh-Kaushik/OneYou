@@ -65,12 +65,17 @@ h1{
 }
 .student{
   margin: 5% 10%;
-  border-radius: 10px;
  text-align: center;
+ font-size: 15px;
+ border-radius: 10px;
+ padding: 8px 40px;
 }
+
 .professional{
   margin: 5% 10%;
+  font-size: 15px;
   border-radius: 10px;
+  padding: 8px 40px;
 }
 
 
