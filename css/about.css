@@ -1,4 +1,7 @@
 /* -----------Common CSS------------- */
+body{
+  font-family: "Comfortaa";
+}
 
 section{
   padding: 7%;
@@ -52,6 +55,114 @@ section{
   font-size: 1.1rem;
   font-family: "Comfortaa";
 }
+
+.what{
+  margin: 50px 80px;
+}
+
+.what-txt-head{
+font-size: 32px;
+margin: 40px 0;
+}
+
+.what-txt-para{
+  font-size:15px;
+  margin:10px;
+}
+
+.img-1{
+  width: 275px;
+}
+
+.why{
+  margin: 100px 80px;
+}
+
+.why-txt-head{
+font-size: 32px;
+margin: 40px 0;
+}
+
+.why-txt-para{
+  font-size:15px;
+  margin:10px 2px;
+
+}
+
+.img-2{
+  width: 340px;
+  margin: 20px 30px;
+  position: relative;
+  top: 50px;
+}
+
+.who{
+  margin: 100px 80px;
+}
+
+.who-txt-head{
+font-size: 32px;
+margin: 40px 0;
+}
+
+.who-txt-para{
+  font-size:15px;
+  margin:10px 2px;
+
+}
+
+.img-3{
+  width: 300px;
+  margin: 20px 30px;
+  position: relative;
+  top: 50px;
+}
+
+.when{
+  margin: 100px 80px;
+}
+
+.when-txt-head{
+font-size: 32px;
+margin: 40px 0;
+}
+
+.when-txt-para{
+  font-size:15px;
+  margin:10px 2px;
+
+}
+
+.img-4{
+  width: 340px;
+  margin: 20px 30px;
+  position: relative;
+  top: 50px;
+}
+
+.where{
+  margin: 100px 80px;
+}
+
+.where-txt-head{
+font-size: 32px;
+margin: 40px 0;
+}
+
+.where-txt-para{
+  font-size:15px;
+  margin:10px 2px;
+
+}
+
+.img-5{
+  width: 340px;
+  margin: 20px 30px;
+  position: relative;
+  top: 50px;
+}
+
+
 
 .circle {
   border-radius: 50%;
