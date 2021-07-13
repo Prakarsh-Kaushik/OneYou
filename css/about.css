@@ -1,168 +1,182 @@
 /* -----------Common CSS------------- */
-body{
+body {
   font-family: "Comfortaa";
 }
 
-section{
+section {
   padding: 7%;
 }
 
-.section-heading{
+.section-heading {
   text-align: center;
 }
 
 /* ---------------Navbar-------------- */
-
-.navbar{
+.navbar {
   padding-left: 140px;
   padding-right: 140px;
   height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-#nav1
-{
-    background-color: #fff; /*whichever you want*/
-    opacity: 0.98;
-
+#nav1 {
+  background-color: #fff;
+  /*whichever you want*/
+  opacity: 0.98;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Comfortaa";
   font-size: 2rem;
   font-weight: bold;
   margin-right: 20px;
 }
 
-.nav-btn{
+.nav-btn {
   border-radius: 35px;
   background-color: #0070f4;
   padding: 5px 15px;
 }
 
-.nav-btn a.nav-link{
+.nav-btn a.nav-link {
   color: #fff !important;
   font-size: 0.9rem;
   padding: 0;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 20px;
   margin-left: 5px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.1rem;
   font-family: "Comfortaa";
 }
 
-.what{
+.what {
   margin: 50px 80px;
 }
 
-.what-txt-head{
-font-size: 32px;
-margin: 40px 0;
+.what-txt-head {
+  font-size: 32px;
+  margin: 40px 0;
 }
 
-.what-txt-para{
-  font-size:15px;
-  margin:10px;
+.what-txt-para {
+  font-size: 15px;
+  margin: 10px;
 }
 
-.img-1{
+.img-1 {
   width: 275px;
 }
 
-.why{
+.why {
   margin: 100px 80px;
 }
 
-.why-txt-head{
-font-size: 32px;
-margin: 40px 0;
+.why-txt-head {
+  font-size: 32px;
+  margin: 40px 0;
 }
 
-.why-txt-para{
-  font-size:15px;
-  margin:10px 2px;
-
+.why-txt-para {
+  font-size: 15px;
+  margin: 10px 2px;
 }
 
-.img-2{
+.img-2 {
   width: 340px;
   margin: 20px 30px;
   position: relative;
   top: 50px;
 }
 
-.who{
+.who {
   margin: 100px 80px;
 }
 
-.who-txt-head{
-font-size: 32px;
-margin: 40px 0;
+.who-txt-head {
+  font-size: 32px;
+  margin: 40px 0;
 }
 
-.who-txt-para{
-  font-size:15px;
-  margin:10px 2px;
-
+.who-txt-para {
+  font-size: 15px;
+  margin: 10px 2px;
 }
 
-.img-3{
+.img-3 {
   width: 300px;
   margin: 20px 30px;
   position: relative;
   top: 50px;
 }
 
-.when{
+.when {
   margin: 100px 80px;
 }
 
-.when-txt-head{
-font-size: 32px;
-margin: 40px 0;
+.when-txt-head {
+  font-size: 32px;
+  margin: 40px 0;
 }
 
-.when-txt-para{
-  font-size:15px;
-  margin:10px 2px;
-
+.when-txt-para {
+  font-size: 15px;
+  margin: 10px 2px;
 }
 
-.img-4{
+.img-4 {
   width: 340px;
   margin: 20px 30px;
   position: relative;
   top: 50px;
 }
 
-.where{
+.where {
   margin: 100px 80px;
 }
 
-.where-txt-head{
-font-size: 32px;
-margin: 40px 0;
+.where-txt-head {
+  font-size: 32px;
+  margin: 40px 0;
 }
 
-.where-txt-para{
-  font-size:15px;
-  margin:10px 2px;
-
+.where-txt-para {
+  font-size: 15px;
+  margin: 10px 2px;
 }
 
-.img-5{
+.img-5 {
   width: 340px;
   margin: 20px 30px;
   position: relative;
   top: 50px;
 }
 
+.feature-txt {
+  font-size: 30px;
+  margin: 6% 30px 1% 30px;
+  text-align: left;
+  padding-top: 30px;
+}
 
+.feature-btn {
+  margin: 3% 10%;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 8px 40px;
+  position: relative;
+  bottom: 88px;
+  left: 700px;
+}
+
+.works-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
 
 .circle {
   border-radius: 50%;
@@ -175,32 +189,107 @@ margin: 40px 0;
   font: 35px Arial, sans-serif;
   float: left;
 }
+
 .boxed {
   border: 3px solid #e8e6e6;
-  box-radius: 25px;
+  border-radius: 15px;
   padding: 10px 10px;
 }
 
-/* ---------------Section - Footer----------- */
+.work1, .work2 {
+  width: 200px;
+  margin: 20px 30px;
+}
+.work1{
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+}
+.oneyou-banner {
+  background-color: #fff;
+  border: 2px solid #384ad3;
+  border-radius: 15px;
+}
 
-#foot{
+.oneyou-para {
+  color: Orange;
+}
+
+.possibility-text {
+  margin: 50px;
+}
+
+.poss-head {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.poss-para {
+  text-align: center;
+  font-size: 22px;
+}
+
+.btn-poss {
+  margin: 3% 10% 4% 10%;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 8px 40px;
+  position: relative;
+  left: 300px;
+}
+
+/* ---------------Section - Live Pages----------- */
+.section-heading {
+  margin-top: 50px;
+}
+
+.boxed-live {
+  border: 3px solid #e8e6e6;
+  border-radius: 15px;
+  margin: 50px 1px 30px 30px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 82%;
+}
+
+.live-page-image {
+  width: 95px;
+  border-radius: 100%;
+  border: 5px solid #fff;
+  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.2);
+}
+
+.abdul-txt, .rahul-txt {
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.boxedrahul {
+  position: relative;
+  left: 50px;
+}
+
+/* ---------------Section - Footer----------- */
+#foot {
   box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
   padding: 3% 10%;
 }
 
-.para-foot{
+.para-foot {
   text-align: left;
   color: #737373;
   font-size: 0.9rem;
   margin-bottom: 4px;
 }
 
-.div-foot-center-aligned{
-  display:flex;
-  align-items:center;
+.div-foot-center-aligned {
+  display: flex;
+  align-items: center;
 }
 
-.link-foot, .link-foot:hover{
+.link-foot, .link-foot:hover {
   color: #737373;
   text-decoration: none;
   font-weight: 900;
