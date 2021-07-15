@@ -54,6 +54,9 @@ section {
   font-family: "Comfortaa";
 }
 
+
+/* About */
+/* what */
 .what {
   margin: 50px 80px;
 }
@@ -72,6 +75,7 @@ section {
   width: 275px;
 }
 
+/* why */
 .why {
   margin: 100px 80px;
 }
@@ -93,6 +97,7 @@ section {
   top: 50px;
 }
 
+/* who */
 .who {
   margin: 100px 80px;
 }
@@ -114,6 +119,7 @@ section {
   top: 50px;
 }
 
+/* when */
 .when {
   margin: 100px 80px;
 }
@@ -135,6 +141,7 @@ section {
   top: 50px;
 }
 
+/* where */
 .where {
   margin: 100px 80px;
 }
@@ -156,6 +163,7 @@ section {
   top: 50px;
 }
 
+/* fearure  */
 .feature-txt {
   font-size: 30px;
   margin: 6% 30px 1% 30px;
@@ -173,11 +181,13 @@ section {
   left: 700px;
 }
 
+/* how it works */
 .works-title {
   text-align: center;
   margin-bottom: 50px;
 }
 
+/* circle for holding number */
 .circle {
   border-radius: 50%;
   width: 80px;
@@ -190,6 +200,7 @@ section {
   float: left;
 }
 
+/* boxing around text and circle */
 .boxed {
   border: 3px solid #e8e6e6;
   border-radius: 15px;
@@ -205,6 +216,7 @@ section {
   left: 200px;
   bottom: 150px;
 }
+
 .oneyou-banner {
   background-color: #fff;
   border: 2px solid #384ad3;
