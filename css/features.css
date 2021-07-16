@@ -7,22 +7,27 @@ body{
 /* ---------------Navbar-------------- */
 
 .navbar{
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 13.7%;
+  padding-right: 13.7%;
   height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 #nav1
 {
-    background-color: #fff;
-    opacity: 0.98;
+    background-color: #fff; /*whichever you want*/
+    opacity: 0.96;
 }
 
 .navbar-brand{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  margin-right: 20px;
+}
+
+.navbrand-small{
+  font-size: 1.2rem;
 }
 
 .nav-btn{
@@ -38,14 +43,14 @@ body{
 }
 
 .nav-item{
-  padding: 0 20px;
-  margin-left: 5px;
+  padding: 0 23px;
 }
 
 .nav-link{
   font-size: 1.1rem;
   font-family: 'Comfortaa', cursive;
 }
+
 
 /* ---------------Section - Title----------- */
 
@@ -63,7 +68,7 @@ body{
 
 .title-col-left{
   padding: 0;
-  padding-right: 60px;
+  padding-right: 6%;
 }
 
 .title-col-right{
@@ -86,7 +91,7 @@ body{
   float: right;
   width: 130%;
   position: relative;
-  right: 15px;
+  right: 3%;
 }
 
 /* ---------------Section - Feature Card----------- */
@@ -139,7 +144,7 @@ body{
 
 .contact-text-2{
   font-size: 1.3rem;
-  margin: 30px;
+  margin: 2.2%;
 }
 
 .contact-freetrial-button{

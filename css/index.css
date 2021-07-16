@@ -1,21 +1,29 @@
 /* -----------Common CSS------------- */
 body{
-  padding-top: 50px;
+  padding-top: 10%;
+  font-family: 'Comfortaa', cursive;
 }
 
 section{
-  padding: 7%;
+  padding: 2% 7%;
 }
 
 .section-heading{
+  padding: 2%;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+.grey-text{
+  color: #737373;
 }
 
 /* ---------------Navbar-------------- */
 
 .navbar{
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 13.7%;
+  padding-right: 13.7%;
   height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -23,15 +31,18 @@ section{
 #nav1
 {
     background-color: #fff; /*whichever you want*/
-    opacity: 0.98;
-
+    opacity: 0.96;
 }
 
 .navbar-brand{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: bold;
   margin-right: 20px;
+}
+
+.navbrand-small{
+  font-size: 1.2rem;
 }
 
 .nav-btn{
@@ -47,10 +58,7 @@ section{
 }
 
 .nav-item{
-
-  padding: 0 20px;
-  margin-left: 5px;
-
+  padding: 0 23px;
 }
 
 .nav-link{
@@ -62,13 +70,58 @@ section{
 
 #title{
   background-color: White;
-  font-family: 'Comfortaa', cursive;
   text-align: center;
+}
+
+.title-headline{
+  margin-top: 2%;
+  font-size: 4.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-para{
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  font-size: 1.1rem;
+}
+
+.title-para .grey-text{
+  margin-bottom: 0;
+}
+
+.title-beta-version{
+  width: auto;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title-button{
+    border-radius: 10px;
+    padding: 8px 50px;
+    font-size: 0.9rem;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.title-link{
+  color: #000;
+  font-size: 0.9rem;
 }
 
 .title-image{
   width: 70%;
   height: 70%;
+}
+
+.title-card-text{
+  margin: auto;
+  margin-top: 5%;
+  width: 53%;
+  font-size: 1.1rem;
+  line-height: normal;
 }
 
 /* ---------------Section - Brand-description----------- */
@@ -80,23 +133,169 @@ section{
 .brand-desc-tile{
   margin: 0 10%;
   background-color: #fff;
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.brand-desc-tile .row{
+  display: flex;
+  align-items: center;
+  height: 390px;
+  text-align: center;
+}
+
+.brand-desc-tile-right{
+  padding: 5%;
+  text-align: left;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+.brand-desc-para{
+  padding: 5% 0;
+}
+
+.brand-desc-link{
+  color: #000;
+}
+
+.brand-desc-link:hover{
+  color: #000;
 }
 
 .brand-desc-img{
-  width: 80%;
+  width: 95%;
+  height: 95%;
 }
 
 /* ---------------Section - Live Pages----------- */
+#live-pages .section-heading{
+  padding: 1.5% 0;
+}
+
+.live-pages-tagline{
+  text-align: center;
+  font-weight: bolder;
+  margin: 1.5%;
+}
+
+.live-page-tile{
+  padding: 3%;
+  width: 85%;
+  border-radius: 15px;
+  box-shadow: 0 4px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.live-page-left-tile{
+  margin: 3% 1% 3% auto;
+}
+
+.live-page-right-tile{
+  margin: 3% auto 3% 1%;
+}
+
+.live-page-tile-name{
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.live-page-tile-link{
+  color: #000;
+}
+
+.live-page-tile-link:hover{
+  color: #000;
+}
+
 .live-page-image{
-  width: 100%;
+  width: 90%;
   border-radius:100%;
   border:5px solid #fff;
   box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.2);
 }
 
+.live-page-button-div{
+  text-align: center;
+  margin: 5% 0 3% 0;
+}
+
+.live-page-button{
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 8px 40px;
+}
+
+/* ---------------Section - How it Works----------- */
+#how-it-works{
+  background-color: #fafafa;
+}
+
 /* ---------------Section - Pricing----------- */
+#pricing{
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.pricing-section-tagline{
+  width: 60%;
+  margin: auto;
+}
+
 .card{
   position: relative;
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  padding: 3% 3% 1% 3%;
+}
+
+.student-card{
+  margin: 0 3% 0 auto;
+}
+
+.professional-card{
+  margin: 0 auto 0 3%;
+  border: 1px solid red;
+}
+
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.card-price{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+}
+
+.card-para1{
+  font-size: 1.1rem;
+}
+
+.card-para2{
+  font-size: 0.9rem;
+}
+
+.pricing-list{
+  padding: 0;
+}
+
+.card-bullets{
+  font-size: 1.2rem;
+  margin: 12% 0;
+}
+
+.div-card-button{
+  text-align: center;
+}
+
+.card-button{
+  border-radius: 10px;
+  padding: 2% 12%;
 }
 
 .pricing-banner-student{
@@ -105,6 +304,17 @@ section{
   top: -15px;
   background-color: #fff;
   border: 2px solid #384ad3;
+  border-radius: 12px;
+  min-width: 60%;
+  text-align: center;
+  padding: 1% 3%;
+}
+
+.pricing-banner-text-student{
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #384ad3;
 }
 
 .pricing-banner-professional{
@@ -113,6 +323,17 @@ section{
   top: -15px;
   background-color: #fff;
   border: 2px solid #ed5829;
+  border-radius: 12px;
+  min-width: 60%;
+  text-align: center;
+  padding: 1% 3%;
+}
+
+.pricing-banner-text-professional{
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ed5829;
 }
 
 .pricing-list{
@@ -125,37 +346,76 @@ section{
 
 /* ---------------Section - Contact-Us-Whatsapp----------- */
 .div-contact-us-whatsapp{
+  margin-top: 1%;
   width: 80%;
   padding: 2%;
   background-color: #0070f4;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.whatsapp-contact-line1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+
+.whatsapp-contact-line2{
+  font-size: 1.2rem;
+}
+
+.whatsapp-contact-button{
+  background-color: #fff;
+  padding: 3% 20%;
+  border-radius: 10px;
+  margin: 10px 0 15px 0;
 }
 
 /* ---------------Section - Our-Story----------- */
+.twitter-tweet{
+  margin: auto;
+}
+
+/* ---------------Section - Contact us Free Trial----------- */
 #contact-us-freetrial{
   background-color: #fafafa;
+  padding: 4%;
+  text-align: center;
+}
+
+.contact-freetrial-heading{
+  font-weight: 700;
+}
+
+.contact-freetrail-button{
+  border-radius: 10px;
+  padding: 0.75% 7%;
+  font-size: 0.9rem;
+  margin: 2%;
 }
 
 /* ---------------Section - Footer----------- */
 
 #foot{
-  font-size: 1rem;
-  background-color: inherit;
-  bottom: 250px;
-  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2), 0 -6px 10px 0 rgba(0, 0, 0, 0.19);
-}
-
-.foot-icon{
-  margin: 20px 10px;
-  position: relative;
-  left: 42%;
-  color: #000;
-  width: 30px;
-}
-
-.foot-icon:hover{
-  color: #0a81ab;
+  box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 3% 10%;
 }
 
 .para-foot{
-  text-align: center;
+  text-align: left;
+  color: #737373;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.div-foot-center-aligned{
+  display:flex;
+  align-items:center;
+}
+
+.link-foot, .link-foot:hover{
+  color: #737373;
+  text-decoration: none;
+  font-weight: 900;
 }
