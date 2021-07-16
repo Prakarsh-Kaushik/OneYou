@@ -20,7 +20,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <!-- Import Icons -->
   <link rel="icon" href="images\favicon.ico">
   <script src="https://kit.fontawesome.com/6366f274c2.js" crossorigin="anonymous"></script>
@@ -31,7 +31,7 @@
 
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav1">
-    <a class="navbar-brand" href="index.html">OneYou.in</a>
+    <a class="navbar-brand" href="index.html">OneYou<span class="navbrand-small">.in</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,7 +41,7 @@
           <a class="nav-link" href="#pricing">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#livepages">Live Pages</a>
+          <a class="nav-link" href="#live-pages">Live Pages</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About Us</a>
@@ -64,27 +64,31 @@
       <a href="https://www.producthunt.com/posts/oneyou?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-oneyou" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=290688&theme=light"
           alt="OneYou - Showcase your portfolio online with a personal site | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-      <h1>Your online presence<br>Made Easy</h1>
-      <div class="">
-        <p>Your one-of-a-kind OneYou page gives you the ability to stand out from the crowd. It's not enough to tell people what you're good at; you need to show them.</p>
-        <div class="">
+      <h1 class="title-headline">Your online presence<br>Made Easy</h1>
+      <div class="title-para">
+        <p class="grey-text">Your one-of-a-kind OneYou page gives you the ability to stand out from the crowd. It's not enough to tell people what you're good at; you need to show them.</p>
+        <div class="title-beta-version">
           <p>*Beta Version</p>
         </div>
         <a href="sign-up.html"></a>
-        <button type="button" class="btn btn-primary">Start your free trial</button>
-        <p>No credit card required! <a href="about.html">Know more <i class="fas fa-external-link-alt"></i></a></p>
+        <button type="button" class="btn btn-primary title-button">Start your free trial</button>
+        <p class="grey-text">No credit card required!&nbsp&nbsp<a href="about.html" class="title-link">Know more <i class="fas fa-external-link-alt"></i></a></p>
       </div>
 
       <div class="row">
         <div class="col-md-6">
           <h3>Old way</h3>
           <img class="title-image" src="images/oldway.png" alt="Old way image">
-          <p>Document sharing is hard to maintain and the possibilities of losing or misplacing are high</p>
+          <div class="title-card-text">
+            <p>Document sharing is hard to maintain and the possibilities of losing or misplacing are high</p>
+          </div>
         </div>
         <div class="col-md-6">
           <h3>OneYou way</h3>
           <img class="title-image" src="images/newway.png" alt="New way image">
-          <p>Online Profile is Easy for sharing and can be accessed anywhere</p>
+          <div class="title-card-text">
+            <p>Online Profile is Easy for sharing and can be accessed anywhere</p>
+          </div>
         </div>
       </div>
     </div>
@@ -93,15 +97,15 @@
   <!-- Brand description -->
   <section id="brand-description">
     <div class="container-fluid">
-      <h2 class="section-heading">What is OneYou.in</h2>
+      <h2 class="section-heading">What is OneYou.in ?</h2>
       <div class="brand-desc-tile">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 brand-desc-tile-left">
             <img class="brand-desc-img" src="images/sarah-review.jpeg" alt="Sarah Jodi's opinion">
           </div>
-          <div class="col-md-6">
-            <p>We are a Platform that solves the problem of creating an online portfolio for people who are not designers and want to stand out of the crowd <br> like Sarah Jordi</p>
-            <a href="features.html">See Features of Oneyou <i class="fas fa-external-link-alt"></i></a>
+          <div class="col-md-6 brand-desc-tile-right">
+            <p>We are a Platform that solves the problem of creating an online portfolio for people who are not designers and want to stand out of the crowd <p class="brand-desc-para">like Sarah Jordi</p></p>
+            <a class="brand-desc-link" href="features.html">See Features of Oneyou <i class="fas fa-external-link-alt"></i></a>
           </div>
         </div>
       </div>
@@ -112,32 +116,32 @@
   <section id="live-pages">
     <div class="container-fluid">
       <h2 class="section-heading">Many Students and Professionals are using Oneyou.in to launch their portfolio.</h2>
-      <h3>Some of the best designs we made 💖</h3>
+      <h4 class="live-pages-tagline">Some of the best designs we made 💖</h4>
       <div class="row">
         <div class="col-md-6">
-          <div class="live-page-tile">
+          <div class="live-page-tile live-page-left-tile">
             <div class="row">
-              <div class="col-3">
+              <div class="col-4">
                 <img class="live-page-image" src="images/rahul.png" alt="Rahul's image">
               </div>
               <div class="col">
-                <p>Yamparala Rahul</p>
+                <p class="live-page-tile-name">Yamparala Rahul</p>
                 <p>Founder and CEO of OneYou.in<br>Product manager @ Viggify.com</p>
-                <a href="https://www.oneyou.in/yamparala" target="_blank">Click to see the page</a>
+                <a class="live-page-tile-link" href="https://www.oneyou.in/yamparala" target="_blank">Click to see the page</a>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="live-page-tile">
+          <div class="live-page-tile live-page-right-tile">
             <div class="row">
-              <div class="col-3">
+              <div class="col-4">
                 <img class="live-page-image" src="images/abdul.png" alt="Abdul's image">
               </div>
               <div class="col">
-                <p>Abdul Muzeer</p>
+                <p class="live-page-tile-name">Abdul Muzeer</p>
                 <p>CMO at OneYou.in<br>Technical Lead at SAC vignan</p>
-                <a href="https://www.oneyou.in/abdul" target="_blank">Click to see the page</a>
+                <a class="live-page-tile-link" href="https://www.oneyou.in/abdul" target="_blank">Click to see the page</a>
               </div>
             </div>
           </div>
@@ -145,37 +149,39 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="live-page-tile">
+          <div class="live-page-tile live-page-left-tile">
             <div class="row">
-              <div class="col-3">
+              <div class="col-4">
                 <img class="live-page-image" src="images/chaitanya.png" alt="Chaitanya's image">
               </div>
               <div class="col">
-                <p>Chaitanya</p>
+                <p class="live-page-tile-name">Chaitanya</p>
                 <p>Marketing and Branding geek<br>Working at Naavigo</p>
-                <a href="https://www.oneyou.in/chaitanya" target="_blank">Click to see the page</a>
+                <a class="live-page-tile-link" href="https://www.oneyou.in/chaitanya" target="_blank">Click to see the page</a>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="live-page-tile">
+          <div class="live-page-tile live-page-right-tile">
             <div class="row">
-              <div class="col-3">
+              <div class="col-4">
                 <img class="live-page-image" src="images/husain.png" alt="Husain's image">
               </div>
               <div class="col">
-                <p>Mudassar Husain</p>
+                <p class="live-page-tile-name">Mudassar Husain</p>
                 <p>Digital Marketing & Finanace<br>Freelancer Content Writer</p>
-                <a href="https://www.oneyou.in/mudassar" target="_blank">Click to see the page</a>
+                <a class="live-page-tile-link" href="https://www.oneyou.in/mudassar" target="_blank">Click to see the page</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a href="about.html">
-        <button type="button" class="btn btn-primary">Know More</button>
-      </a>
+      <div class="live-page-button-div">
+        <a href="about.html">
+          <button type="button" class="btn btn-primary live-page-button">Know More</button>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -199,45 +205,51 @@
   <section id="pricing">
     <div class="container-fluid">
       <h2 class="section-heading">Our lifetime deal is going on 👇</h2>
-      <p>Try it out with our Starter plan, and then upgrade to our Premium plan if you need extra flavor like Video and Blogs</p>
+      <div class="pricing-section-tagline">
+        <p class="grey-text">Try it out with our Starter plan, and then upgrade to our Premium plan if you need extra flavor like Video and Blogs</p>
+      </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="card">
+          <div class="card student-card">
             <div class="card-body">
               <h5 class="card-title">Student Plan</h5>
-              <p>₹ 51/month</p>
-              <p>The perfect plan to give it a try and see how it works</p>
-              <p>*Individuals having online resume have more chance of landing in Jobs</p>
+              <p class="card-price">₹ 51 /month</p>
+              <p class="grey-text card-para1">The perfect plan to give it a try and see how it works</p>
+              <p class="grey-text card-para2">*Individuals having online resume have more chance of landing in Jobs</p>
               <ul class="pricing-list">
-                <li><i class="fas fa-check-circle pricing-tick"></i> Custom Link</li>
-                <li><i class="fas fa-check-circle pricing-tick"></i> WhatsApp Support</li>
-                <li><i class="fas fa-check-circle pricing-tick"></i> 5+ Templates to Choose</li>
-                <li><i class="fas fa-check-circle pricing-tick"></i> Page Download support</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> Custom Link</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> WhatsApp Support</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> 5+ Templates to Choose</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> Page Download support</li>
               </ul>
-              <a href="signup-student.html" class="btn btn-primary">Let's do it</a>
+              <div class="div-card-button">
+                <a href="signup-student.html" class="btn btn-primary card-button">Let's do it</a>
+              </div>
             </div>
             <div class="pricing-banner-student">
-              <p>Must for 3rd year Students 🎓</p>
+              <p class="pricing-banner-text-student">Must for 3rd year Students 🎓</p>
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card">
+          <div class="card professional-card">
             <div class="card-body">
               <h5 class="card-title">Professionals Plan</h5>
-              <p>₹ 117 / month</p>
-              <p>Our pre-launch deal for early birds,</p>
-              <p>* Everything Included in the Student plan</p>
+              <p class="card-price">₹ 117 /month</p>
+              <p class="grey-text card-para1">Our pre-launch deal for early birds,</p>
+              <p class="grey-text card-para2">* Everything Included in the Student plan</p>
               <ul class="pricing-list">
-                <li><i class="fas fa-check-circle pricing-tick"></i> Resource Sharing</li>
-                <li><i class="fas fa-check-circle pricing-tick"></i> EBooks, Videos, and Chat</li>
-                <li><i class="fas fa-check-circle pricing-tick"></i> Projects & Publication display</li>
-                <li><i class="fas fa-check-circle pricing-tick"></i> Custom Changes</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> Resource Sharing</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> EBooks, Videos, and Chat</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> Projects & Publication display</li>
+                <li class="grey-text card-bullets"><i class="fas fa-check-circle pricing-tick"></i> Custom Changes</li>
               </ul>
-              <a href="signup-professional.html" class="btn btn-primary">Let's do it</a>
+              <div class="div-card-button">
+                <a href="signup-professional.html" class="btn btn-primary card-button">Let's do it</a>
+              </div>
             </div>
             <div class="pricing-banner-professional">
-              <p>Best for Teachers 🔥</p>
+              <p class="pricing-banner-text-professional">Best for Teachers 🔥</p>
             </div>
           </div>
         </div>
@@ -250,11 +262,11 @@
     <div class="container-fluid div-contact-us-whatsapp">
       <div class="row">
         <div class="col">
-          <p>Wanna give it a try ? let's talk</p>
-          <p>let's talk and get the amazing page ready for you in your own pocket 🤑</p>
+          <p class="whatsapp-contact-line1">Wanna give it a try ? let's talk</p>
+          <p class="whatsapp-contact-line2">let's talk and get the amazing page ready for you in your own pocket 🤑</p>
         </div>
         <div class="col-3">
-          <a href="https://api.whatsapp.com/send?phone=918897132717" target="_blank"><button type="button" class="btn btn-light">Let's Talk</button></a>
+          <a href="https://api.whatsapp.com/send?phone=918897132717" target="_blank"><button type="button" class="btn btn-light whatsapp-contact-button">Let's Talk</button></a>
           <p>will be waiting for you</p>
         </div>
       </div>
@@ -273,22 +285,23 @@
 
   <!-- Contact-us Free trial -->
   <section id="contact-us-freetrial">
-    <p>The possibilities are endless.<br>What are you going to make</p>
-    <button type="button" class="btn btn-primary">Start your free trial</button>
+    <h1 class="contact-freetrial-heading">The possibilities are endless.<br>What are you going to make</h1>
+    <button type="button" class="btn btn-primary contact-freetrail-button">Start free trial</button>
   </section>
 
   <!-- Footer -->
-  <footer id="foot">
+  <section id="foot">
     <div class="container-fluid">
-      <p class="para-foot">© 2025 OneYou.in. All Rights Reserved</p>
-
-      <a href="https://twitter.com/yamparalarahul1"><i class="fab foot-icon fa-twitter"></i></a>
-      <a href="https://www.linkedin.com/in/yamparalarahul/"><i class="fab foot-icon fa-linkedin"></i></a>
-      <a href="https://api.whatsapp.com/send/?phone=918897560612"><i class="fab foot-icon fa-whatsapp"></i></a>
-      <a href="mailto: YamparalaMedia@gmail.com"><i class="fas foot-icon fa-envelope"></i></a>
-
-      <p class="para-foot">Made with <i class="fas fa-heart"></i> in <img src="images\india.png" alt="India"> by <a id="linkedin" href="https://www.linkedin.com/in/yamparalarahul/">Rahul</a></p>
+      <div class="row">
+        <div class="col-md-8">
+          <p class="para-foot">© 2025 OneYou.in. All Rights Reserved.</p>
+          <p class="para-foot">Contact Details - Email - YamparalaMedia@gmail.com</p>
+        </div>
+        <div class="col div-foot-center-aligned">
+          <p class="para-foot">Made with love by&nbsp<a class="link-foot" href="https://twitter.com/yamparalarahul1" target="_blank">Rahul</a>&nbspfrom 🏠</p>
+        </div>
+      </div>
     </div>
-  </footer>
+  </section>
 </body>
 </html>
