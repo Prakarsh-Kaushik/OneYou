@@ -23,7 +23,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 .navbrand-small{
@@ -178,4 +178,11 @@ body{
   color: #737373;
   text-decoration: none;
   font-weight: 900;
+}
+
+/* ---------------Media Queries----------- */
+@media (max-width: 1330px) {
+  .navbar{
+    padding: 0 8%;
+  }
 }
