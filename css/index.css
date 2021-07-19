@@ -38,7 +38,7 @@ section{
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 .navbrand-small{
@@ -233,6 +233,27 @@ section{
   background-color: #fafafa;
 }
 
+.how-it-works-tile{
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  margin: 2%;
+}
+
+.how-it-works-image1{
+  width: 30%;
+  display: block;
+}
+
+.how-it-works-image2{
+  width: 30%;
+  display: block;
+}
+
+.how-it-works-pricing{
+  width: 80%;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
 /* ---------------Section - Pricing----------- */
 #pricing{
   background-color: #fafafa;
@@ -418,4 +439,11 @@ section{
   color: #737373;
   text-decoration: none;
   font-weight: 900;
+}
+
+/* ---------------Media Queries----------- */
+@media (max-width: 1330px) {
+  .navbar{
+    padding: 0 8%;
+  }
 }
