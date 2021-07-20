@@ -11,8 +11,8 @@ body{
 /* ---------------Navbar-------------- */
 
 .navbar{
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 13.7%;
+  padding-right: 13.7%;
   height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -20,15 +20,18 @@ body{
 #nav1
 {
     background-color: #fff; /*whichever you want*/
-    opacity: 0.98;
-
+    opacity: 0.96;
 }
 
 .navbar-brand{
-  font-family: "Comfortaa";
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 2%;
+}
+
+.navbrand-small{
+  font-size: 1.2rem;
 }
 
 .nav-btn{
@@ -41,17 +44,15 @@ body{
   color: #fff !important;
   font-size: 0.9rem;
   padding: 0;
-
 }
 
 .nav-item{
-  padding: 0 20px;
-  margin-left: 5px;
+  padding: 0 23px;
 }
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: "Comfortaa";
+  font-family: 'Comfortaa', cursive;
 }
 
 /* section option */
@@ -103,3 +104,11 @@ h1{
   text-decoration: none;
   font-weight: 900;
 }
+
+/* ---------------Media Queries----------- */
+@media (max-width: 1330px) {
+  .navbar{
+    padding: 0 8%;
+  }
+}
+
