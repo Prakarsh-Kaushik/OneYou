@@ -58,6 +58,11 @@ section {
   font-family: 'Comfortaa', cursive;
 }
 
+.navbar-collapse{
+  background-color: white;
+  text-align: center;
+}
+
 /* About */
 /* what */
 .what {

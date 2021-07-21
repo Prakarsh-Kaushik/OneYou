@@ -66,6 +66,11 @@ section{
   font-family: 'Comfortaa', cursive;
 }
 
+.navbar-collapse{
+  background-color: white;
+  text-align: center;
+}
+
 /* ---------------Section - Title----------- */
 
 #title{
@@ -446,4 +451,62 @@ section{
   .navbar{
     padding: 0 8%;
   }
+}
+
+@media (max-width: 992px) {
+  section{
+    padding: 2%;
+  }
+
+  body{
+    padding-top: 15%;
+  }
+
+  /* ------Section: Title------ */
+  .title-headline{
+    font-size: 2rem;
+  }
+
+  .title-para{
+    width: 100%;
+  }
+
+  /* ------Section: Brand Description------ */
+  .brand-desc-tile .row{
+    height: auto;
+  }
+
+  .brand-desc-tile-right{
+    text-align: center;
+  }
+
+  /* ------Section: Live Pages------ */
+  .live-page-left-tile , .live-page-right-tile{
+    margin: 3% auto;
+  }
+
+  /* ------Section: Pricing------ */
+  .student-card , .professional-card{
+    margin: 3% auto;
+  }
+
+  /* ------Section: Contact Us Whatsapp------ */
+  .div-contact-us-whatsapp{
+    text-align: center;
+  }
+
+  /* ------Section: Footer------ */
+  .para-foot{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .foot-email{
+    font-size: 0.8rem;
+  }
+
+  .div-foot-center-aligned{
+    display: block;
+  }
+
 }
