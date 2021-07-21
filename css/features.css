@@ -51,6 +51,11 @@ body{
   font-family: 'Comfortaa', cursive;
 }
 
+.navbar-collapse{
+  background-color: white;
+  text-align: center;
+}
+
 
 /* ---------------Section - Title----------- */
 
@@ -185,4 +190,46 @@ body{
   .navbar{
     padding: 0 8%;
   }
+}
+
+@media (max-width: 992px){
+  body{
+    padding-top: 12%;
+  }
+
+  /* ------Section: Title------ */
+  #title{
+    padding: 8%;
+  }
+
+  .title-img{
+    margin: 5%;
+    width: 80%;
+  }
+
+  /* ------Section: Feature Cards------ */
+  .feature-tile{
+    background-size: 60% 100%;
+    min-height: 150px;
+  }
+
+  .feature-tile-image{
+    width: 50%;
+    margin: 5%;
+  }
+
+  /* ------Section: Footer------ */
+  .para-foot{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .foot-email{
+    font-size: 0.8rem;
+  }
+
+  .div-foot-center-aligned{
+    display: block;
+  }
+
 }
