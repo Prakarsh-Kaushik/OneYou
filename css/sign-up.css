@@ -55,6 +55,11 @@ body{
   font-family: 'Comfortaa', cursive;
 }
 
+.navbar-collapse{
+  background-color: white;
+  text-align: center;
+}
+
 /* section option */
 .option{
   padding: 20% 20%;
