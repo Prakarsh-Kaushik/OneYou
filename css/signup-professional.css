@@ -57,6 +57,11 @@ section{
   font-family: 'Comfortaa', cursive;
 }
 
+.navbar-collapse{
+  background-color: white;
+  text-align: center;
+}
+
 /* Section-Form */
 /*Professional Plan Heading*/
 h3{
