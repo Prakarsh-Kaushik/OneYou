@@ -63,6 +63,11 @@ section {
   font-family: 'Comfortaa', cursive;
 }
 
+.navbar-collapse{
+  background-color: white;
+  text-align: center;
+}
+
 /* Section-Form */
 /*Student Plan Heading*/
 h3 {
