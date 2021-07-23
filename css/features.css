@@ -48,7 +48,6 @@ body{
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: 'Comfortaa', cursive;
 }
 
 .navbar-collapse{
@@ -197,9 +196,22 @@ body{
     padding-top: 12%;
   }
 
+  /* ------Section: Navbar------ */
+  .nav-item{
+    padding: 3vh 23px;
+  }
+
+  .nav-link{
+    font-size: 1.5rem;
+  }
+
   /* ------Section: Title------ */
   #title{
     padding: 8%;
+  }
+
+  .title-headline{
+    font-size: 2rem;
   }
 
   .title-img{
@@ -208,6 +220,10 @@ body{
   }
 
   /* ------Section: Feature Cards------ */
+  #feature-card{
+    padding: 5%;
+  }
+
   .feature-tile{
     background-size: 60% 100%;
     min-height: 150px;
@@ -215,13 +231,14 @@ body{
 
   .feature-tile-image{
     width: 50%;
-    margin: 5%;
+    margin: 7%;
   }
 
   /* ------Section: Contact Us Free Trial------ */
 
   .contact-text-1{
     font-size: 1.5rem;
+    margin: 20px 0;
   }
 
   .contact-text-2{
