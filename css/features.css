@@ -211,7 +211,7 @@ body{
   }
 
   .title-headline{
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .title-img{
@@ -225,7 +225,7 @@ body{
   }
 
   .feature-tile{
-    background-size: 60% 100%;
+    background-size: 60% 95%;
     min-height: 150px;
   }
 
