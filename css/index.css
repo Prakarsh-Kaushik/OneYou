@@ -529,8 +529,17 @@ section{
   }
 
   /* ------Section: Pricing------ */
+  .card{
+    width: 85%;
+  }
+
   .student-card , .professional-card{
     margin: 3% auto;
+  }
+
+  .pricing-section-tagline{
+    width: 80%;
+    margin: auto;
   }
 
   /* ------Section: Contact Us Whatsapp------ */
