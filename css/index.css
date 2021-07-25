@@ -63,7 +63,6 @@ section{
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: 'Comfortaa', cursive;
 }
 
 .navbar-collapse{
@@ -172,6 +171,10 @@ section{
 .brand-desc-img{
   width: 95%;
   height: 95%;
+}
+
+.brand-desc-img-crop{
+  display: none;
 }
 
 /* ---------------Section - Live Pages----------- */
@@ -454,12 +457,29 @@ section{
 }
 
 @media (max-width: 992px) {
+  .container-fluid{
+    padding: 0;
+  }
+
   section{
     padding: 2%;
   }
 
   body{
-    padding-top: 15%;
+    padding-top: 16vh;
+  }
+
+  .section-heading{
+    font-size: 2rem;
+  }
+
+  /* ------Section: Navbar------ */
+  .nav-item{
+    padding: 3vh 23px;
+  }
+
+  .nav-link{
+    font-size: 1.5rem;
   }
 
   /* ------Section: Title------ */
@@ -471,6 +491,10 @@ section{
     width: 100%;
   }
 
+  .title-cards{
+    margin: 4vh 0;
+  }
+
   /* ------Section: Brand Description------ */
   .brand-desc-tile .row{
     height: auto;
@@ -480,14 +504,42 @@ section{
     text-align: center;
   }
 
+  .brand-desc-tile-left{
+    padding: 3%;
+  }
+
+  .brand-desc-img{
+    display: none;
+  }
+
+  .brand-desc-img-crop{
+    display: block;
+    width: 95%;
+    height: 95%;
+  }
+
   /* ------Section: Live Pages------ */
   .live-page-left-tile , .live-page-right-tile{
     margin: 3% auto;
   }
 
+  .live-page-tile .col-4{
+    display: flex;
+    align-items: center;
+  }
+
   /* ------Section: Pricing------ */
+  .card{
+    width: 85%;
+  }
+
   .student-card , .professional-card{
     margin: 3% auto;
+  }
+
+  .pricing-section-tagline{
+    width: 80%;
+    margin: auto;
   }
 
   /* ------Section: Contact Us Whatsapp------ */
