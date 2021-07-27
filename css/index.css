@@ -70,11 +70,28 @@ section{
   text-align: center;
 }
 
+/* ---------------Whatsapp Float----------- */
+.whatsapp-float{
+  position: fixed;
+  bottom: 15%;
+  right: 8%;
+  width: 3%;
+}
+
+.hidden{
+  display: none;
+}
+
 /* ---------------Section - Title----------- */
 
 #title{
   background-color: White;
   text-align: center;
+
+  background-image: url("../images/title-background.png");
+  background-size: 42% 37%;
+  background-position: -50% 3%;
+  background-repeat: no-repeat;
 }
 
 .title-headline{
@@ -482,7 +499,17 @@ section{
     font-size: 1.5rem;
   }
 
+  /* ------Whatsapp Float------ */
+  .whatsapp-float{
+    width: 7%;
+    z-index: 1;
+  }
+
   /* ------Section: Title------ */
+  #title{
+    background-size: 50% 20%;
+  }
+
   .title-headline{
     font-size: 2rem;
   }
