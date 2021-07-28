@@ -1,12 +1,18 @@
 /* -----------Common CSS------------- */
-body{
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+body {
   font-family: "Comfortaa";
 }
-section{
+
+section {
   padding: 7%;
 }
 
-.section-heading{
+.section-heading {
   text-align: center;
 }
 
@@ -54,7 +60,6 @@ section{
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: 'Comfortaa', cursive;
 }
 
 .navbar-collapse{
@@ -63,59 +68,68 @@ section{
 }
 
 /* Section-Form */
-/*Professional Plan Heading*/
-h3{
+/*Student Plan Heading*/
+h3 {
   margin-top: 30px;
   color: #0070f4;
   text-align: center;
   padding-bottom: 1%;
-  position: relative;
-  right: 30px;
-}
-#form{
-  background-color:  #fafafa;
-}
-.form{
-  margin:5% 5% 10% 10%;
-  background-color:White;
-  padding-bottom: 80px;
-}
-.ip-box {
-  background-color: #CDF0EA;
-  padding:1.5% 2%;
-  margin: 1.2%;
-  border-radius: 7px;
-  border:0;
-position: relative;
-left: 170px;
+  /* position: relative;
+  right: 30px; */
 }
 
-::placeholder{
+/*Overall Form Styling*/
+#form {
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.form {
+  margin: 5% 5% 10% 10%;
+  background-color: White;
+  padding-bottom: 80px;
+}
+
+fieldset {
+  margin: 1%;
+}
+
+/*Text Box styling */
+.ip-box {
+  background-color: #CDF0EA;
+  padding: 1.5% 2%;
+  margin: 1.2%;
+  border-radius: 7px;
+  border: 0;
+  /* position: relative;
+  left: 170px; */
+}
+
+::placeholder {
   color: #2940D3;
   opacity: 1;
   font-size: 12px;
 }
-fieldset{
-margin: 1%;
-}
-.template-choose{
-  color: #2940D3;
-  text-align: center;
-}
-p{
+
+
+
+/* Text to book conferencing call */
+.finalstep-text {
   margin-top: 25px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.submit-btn{
+/*submit button*/
+.submit-btn {
   margin-top: 50px;
   font-size: 15px;
   border-radius: 10px;
   padding: 8px 40px;
-  position: relative;
-  left: 380px;
+  /* position: relative;
+  left: 380px; */
 }
+
 /* ---------------Section - Footer----------- */
 
 #foot{
@@ -147,3 +161,45 @@ p{
     padding: 0 8%;
   }
 }
+
+@media (max-width: 992px){
+
+  /* ------Section: Navbar------ */
+  .nav-item{
+    padding: 3vh 23px;
+  }
+
+  .nav-link{
+    font-size: 1.5rem;
+  }
+
+/* ----Input Boxes----- */
+.txt-box{
+  max-width:37.5vw;
+  max-height:17vh ;
+}
+.txt-box.sm{
+  max-width: 37.5vw;
+  max-height: 3vh;
+}
+
+  /* ------Section: Footer------ */
+  .para-foot{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .foot-email{
+    font-size: 0.8rem;
+  }
+
+  .div-foot-center-aligned{
+    display: block;
+  }
+
+
+
+}
+
+
+/*END*/

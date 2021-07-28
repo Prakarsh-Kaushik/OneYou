@@ -60,7 +60,6 @@ section {
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: 'Comfortaa', cursive;
 }
 
 .navbar-collapse{
@@ -75,13 +74,14 @@ h3 {
   color: #0070f4;
   text-align: center;
   padding-bottom: 1%;
-  position: relative;
-  right: 30px;
+  /* position: relative;
+  right: 30px; */
 }
 
 /*Overall Form Styling*/
 #form {
   background-color: #fafafa;
+  text-align: center;
 }
 
 .form {
@@ -101,8 +101,8 @@ fieldset {
   margin: 1.2%;
   border-radius: 7px;
   border: 0;
-  position: relative;
-  left: 170px;
+  /* position: relative;
+  left: 170px; */
 }
 
 ::placeholder {
@@ -118,8 +118,8 @@ fieldset {
 }
 
 .template-div {
-  position: relative;
-  left: 180px;
+  /* position: relative;
+  left: 180px; */
 }
 
 .template-text {
@@ -151,29 +151,30 @@ td {
   font-size: 15px;
   border-radius: 10px;
   padding: 8px 40px;
-  position: relative;
-  left: 380px;
+  /* position: relative;
+  left: 380px; */
 }
 
 /* ---------------Section - Footer----------- */
-#foot {
+
+#foot{
   box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
   padding: 3% 10%;
 }
 
-.para-foot {
+.para-foot{
   text-align: left;
   color: #737373;
   font-size: 0.9rem;
   margin-bottom: 4px;
 }
 
-.div-foot-center-aligned {
-  display: flex;
-  align-items: center;
+.div-foot-center-aligned{
+  display:flex;
+  align-items:center;
 }
 
-.link-foot, .link-foot:hover {
+.link-foot, .link-foot:hover{
   color: #737373;
   text-decoration: none;
   font-weight: 900;
@@ -184,6 +185,43 @@ td {
   .navbar{
     padding: 0 8%;
   }
+}
+
+@media (max-width: 992px){
+
+  /* ------Section: Navbar------ */
+  .nav-item{
+    padding: 3vh 23px;
+  }
+
+  .nav-link{
+    font-size: 1.5rem;
+  }
+
+  /* ----Input Boxes----- */
+  .txt-box{
+    max-width:37.5vw;
+    max-height:17vh ;
+  }
+  .txt-box.sm{
+    max-width: 37.5vw;
+    max-height: 3vh;
+  }
+  
+  /* ------Section: Footer------ */
+  .para-foot{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .foot-email{
+    font-size: 0.8rem;
+  }
+
+  .div-foot-center-aligned{
+    display: block;
+  }
+
 }
 
 
