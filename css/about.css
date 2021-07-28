@@ -80,7 +80,9 @@ section {
 }
 
 .img-1 {
-  width: 275px;
+  width: 55%;
+  position: relative;
+  left: 10%;
 }
 
 /* why */
@@ -98,8 +100,11 @@ section {
   margin: 10px 2px;
 }
 
+.quoted-txt{
+  font-family: "Montserrat";
+}
 .img-2 {
-  width: 340px;
+  width: 65%;
   margin: 20px 30px;
   position: relative;
   top: 50px;
@@ -121,10 +126,11 @@ section {
 }
 
 .img-3 {
-  width: 300px;
+  width: 60%;
   margin: 20px 30px;
   position: relative;
-  top: 50px;
+  top: 5% ;
+  left: 5%;
 }
 
 /* when */
@@ -143,10 +149,10 @@ section {
 }
 
 .img-4 {
-  width: 340px;
+  width: 70%;
   margin: 20px 30px;
   position: relative;
-  top: 50px;
+  top: 5%;
 }
 
 /* where */
@@ -165,18 +171,21 @@ section {
 }
 
 .img-5 {
-  width: 340px;
+  width: 70%;
   margin: 20px 30px;
   position: relative;
-  top: 50px;
+  top: 5%;
 }
 
 /* fearure  */
+.features{
+  padding: 0;
+}
 .feature-txt {
   font-size: 30px;
-  margin: 6% 30px 1% 30px;
-  text-align: left;
+  margin: 6% 3% 0 8%;
   padding-top: 30px;
+  font-weight: bolder;
 }
 
 .feature-btn {
@@ -185,15 +194,84 @@ section {
   border-radius: 10px;
   padding: 8px 40px;
   position: relative;
-  bottom: 88px;
-  left: 700px;
+  bottom: 80px;
+  left: 58%;
 }
 
-/* how it works */
-.works-title {
-  text-align: center;
-  margin-bottom: 50px;
+/* ---------------Section - How it Works----------- */
+#how-it-works{
+  background-color: #fafafa;
+  padding-top: 0;
 }
+.section-heading{
+  font-weight: bolder;
+  font-size: 42px;
+}
+
+.how-it-works-tile{
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  margin: 4%;
+  padding: 3%;
+  border-radius: 15px;
+}
+
+.how-it-works-image1{
+  width: 38%;
+  display: block;
+  position: relative;
+  left: 35%;
+}
+
+.how-it-works-image2{
+  width: 38%;
+  display: block;
+  position: relative;
+  top: 1%;
+}
+.forward-slash{
+  position: relative;
+  left: 25%;
+}
+.back-slash{
+position: relative;
+left: 20%;
+}
+.how-it-works-pricing{
+  width: 80%;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 15px;
+
+}
+
+.how-it-works-button{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 7px;
+ text-align: center;
+ font-size: 15px;
+ border-radius: 10px;
+ padding: 8px 40px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 15px;
+  background-color: #e8e6e6;
+  color: #000;
+  text-align: center;
+  font: 35px Arial, sans-serif;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.boxes{
+  margin: 50px 0;
+}
+
 
 /* circle for holding number */
 .circle {
@@ -321,4 +399,3 @@ section {
     padding: 0 8%;
   }
 }
-
