@@ -117,16 +117,15 @@ fieldset {
   margin-top: 10px;
 }
 
-.template-div {
-  /* position: relative;
-  left: 180px; */
-}
 
 .template-text {
   color: #2940D3;
   font: 13px;
 }
 
+table{
+  margin-left: 23%;
+}
 td {
   padding: 0 15px;
 }
@@ -207,7 +206,7 @@ td {
     max-width: 37.5vw;
     max-height: 3vh;
   }
-  
+
   /* ------Section: Footer------ */
   .para-foot{
     font-size: 1.1rem;
