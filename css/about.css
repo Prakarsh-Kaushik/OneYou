@@ -13,53 +13,48 @@ section {
 }
 
 /* ---------------Navbar-------------- */
-
-.navbar{
+.navbar {
   padding-left: 13.7%;
   padding-right: 13.7%;
   height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-#nav1
-{
-    background-color: #fff; /*whichever you want*/
-    opacity: 0.96;
+#nav1 {
+  background-color: #fff;
+  /*whichever you want*/
+  opacity: 0.96;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 2%;
+.navbar-brand {
+  display: contents;
 }
 
-.navbrand-small{
-  font-size: 1.2rem;
+.navbar-brand-image {
+  width: 15%;
 }
 
-.nav-btn{
+.nav-btn {
   border-radius: 35px;
   background-color: #0070f4;
   padding: 5px 15px;
 }
 
-.nav-btn a.nav-link{
+.nav-btn a.nav-link {
   color: #fff !important;
   font-size: 0.9rem;
   padding: 0;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 23px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.1rem;
-  font-family: 'Comfortaa', cursive;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   background-color: white;
   text-align: center;
 }
@@ -101,9 +96,10 @@ section {
   margin: 10px 2px;
 }
 
-.quoted-txt{
+.quoted-txt {
   font-family: "Montserrat";
 }
+
 .img-2 {
   width: 65%;
   margin: 20px 30px;
@@ -130,7 +126,7 @@ section {
   width: 60%;
   margin: 20px 30px;
   position: relative;
-  top: 5% ;
+  top: 5%;
   left: 5%;
 }
 
@@ -179,9 +175,10 @@ section {
 }
 
 /* fearure  */
-.features{
+.features {
   padding: 0;
 }
+
 .feature-txt {
   font-size: 30px;
   margin: 6% 3% 6% 8%;
@@ -194,66 +191,67 @@ section {
   font-size: 15px;
   border-radius: 10px;
   padding: 8px 40px;
-position: relative;
-top: 30%;
+  position: relative;
+  top: 30%;
 }
 
-
-
 /* ---------------Section - How it Works----------- */
-#how-it-works{
+#how-it-works {
   background-color: white;
   padding-top: 0;
 }
-.section-heading{
+
+.section-heading {
   font-weight: bolder;
   font-size: 42px;
 }
 
-.how-it-works-tile{
+.how-it-works-tile {
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   margin: 4%;
   padding: 3%;
   border-radius: 15px;
 }
 
-.how-it-works-image1{
+.how-it-works-image1 {
   width: 38%;
   display: block;
   position: relative;
   left: 35%;
 }
 
-.how-it-works-image2{
+.how-it-works-image2 {
   width: 38%;
   display: block;
   position: relative;
   top: 1%;
 }
-.forward-slash{
+
+.forward-slash {
   position: relative;
   left: 25%;
 }
-.back-slash{
-position: relative;
-left: 20%;
+
+.back-slash {
+  position: relative;
+  left: 20%;
 }
-.how-it-works-pricing{
+
+.how-it-works-pricing {
   width: 80%;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 15px;
-
 }
 
-.how-it-works-button{
+.how-it-works-button {
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 7px;
- text-align: center;
- font-size: 15px;
- border-radius: 10px;
- padding: 8px 40px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 8px 40px;
 }
 
 .circle {
@@ -270,10 +268,9 @@ left: 20%;
   margin-left: 5px;
 }
 
-.boxes{
+.boxes {
   margin: 50px 0;
 }
-
 
 /* circle for holding number */
 .circle {
@@ -299,7 +296,8 @@ left: 20%;
   width: 200px;
   margin: 20px 30px;
 }
-.work1{
+
+.work1 {
   position: relative;
   left: 200px;
   bottom: 150px;
@@ -367,7 +365,6 @@ left: 20%;
   font-size: 16px;
 }
 
-
 /* ---------------Section - Footer----------- */
 #foot {
   box-shadow: 0 -4px 5px 0 rgba(0, 0, 0, 0.2);
@@ -394,7 +391,109 @@ left: 20%;
 
 /* ---------------Media Queries----------- */
 @media (max-width: 1330px) {
-  .navbar{
+  .navbar {
     padding: 0 8%;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    margin: 0;
+    padding-top: 15%;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  /* ------Section: Navbar------ */
+  .nav-item {
+    padding: 3vh 23px;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand-image {
+    width: 30%;
+  }
+
+  /* ------Section: About------ */
+  .what, .why, .who, .when, .where {
+    margin: 2% 0;
+  }
+
+  /* ------Section: Features------ */
+  .features {
+    text-align: center;
+  }
+
+  .feature-txt {
+    margin: 6% 3%;
+    padding-top: 0;
+  }
+
+  .feature-btn {
+    margin: 2% 3%;
+    position: static;
+  }
+
+  /* ------Section: How it Works------ */
+  .how-it-works-image1 {
+    left: 45%;
+  }
+
+  .how-it-works-image2 {
+    left: 10%;
+  }
+
+  .forward-slash {
+    left: 10%;
+  }
+
+  .back-slash {
+    left: 10%;
+  }
+
+  .how-it-works-pricing {
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+  /* ------Section: Endless Possibilities------ */
+  .poss-head {
+    font-size: 1.5rem;;
+  }
+
+  .poss-para {
+    font-size: 1rem;
+  }
+
+  .btn-poss {
+    position: static;
+  }
+
+  /* ------Section: Live Pages------ */
+  .section-heading {
+    font-size: 2rem;
+  }
+
+  .boxed-live {
+    margin: 3% auto;
+    width: 100%;
+  }
+  /* ------Section: Footer------ */
+  .para-foot {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .foot-email {
+    font-size: 0.8rem;
+  }
+
+  .div-foot-center-aligned {
+    display: block;
   }
 }
