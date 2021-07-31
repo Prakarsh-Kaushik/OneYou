@@ -23,15 +23,12 @@ body{
     opacity: 0.96;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 2%;
+.navbar-brand {
+  display: contents;
 }
 
-.navbrand-small{
-  font-size: 1.2rem;
+.navbar-brand-image {
+  width: 15%;
 }
 
 .nav-btn{
@@ -52,7 +49,6 @@ body{
 
 .nav-link{
   font-size: 1.1rem;
-  font-family: 'Comfortaa', cursive;
 }
 
 .navbar-collapse{
@@ -60,21 +56,25 @@ body{
   text-align: center;
 }
 
-/* section option */
+/* ---------------Section - Option----------- */
 .option{
   padding: 20% 20%;
   text-align: center;
+  background-color: #fafafa;
+  display: flex;
+  align-items: center;
 }
 
 h1{
   font-weight: bold;
 }
+
 .student{
   margin: 5% 10%;
- text-align: center;
- font-size: 15px;
- border-radius: 10px;
- padding: 8px 40px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 8px 40px;
 }
 
 .professional{
@@ -117,3 +117,50 @@ h1{
   }
 }
 
+@media (max-width: 992px){
+  body{
+    padding-top: 15vh;
+  }
+
+  /* ------Section: Navbar------ */
+  .nav-item {
+    padding: 3vh 23px;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand-image {
+    width: 30%;
+  }
+
+  /* ------Section: Option------ */
+  .option{
+    padding: 12% 12%;
+    min-height: 70vh;
+  }
+
+  .student{
+    margin: 3vw;
+  }
+
+  .professional{
+    margin: 3vw;
+  }
+
+  /* ------Section: Footer------ */
+  .para-foot{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .foot-email{
+    font-size: 0.8rem;
+  }
+
+  .div-foot-center-aligned{
+    display: block;
+  }
+
+}
