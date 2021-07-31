@@ -1,7 +1,7 @@
 /* -----------Common CSS------------- */
 body {
   font-family: "Comfortaa";
-  margin: 0 3%;
+  margin: 0;
 }
 
 section {
@@ -495,6 +495,11 @@ section {
   .live-page-image {
     width: 92%;
     margin-right: 2%;
+  }
+
+  .live-page-tile .col-3{
+    display: flex;
+    align-items: center;
   }
   /* ------Section: Footer------ */
   .para-foot {
