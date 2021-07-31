@@ -1,18 +1,12 @@
 /* -----------Common CSS------------- */
-html,body {
-    margin:0;
-    padding:0;
-    overflow-x:hidden;
-}
-body {
+body{
   font-family: "Comfortaa";
 }
-
-section {
+section{
   padding: 7%;
 }
 
-.section-heading {
+.section-heading{
   text-align: center;
 }
 
@@ -27,19 +21,16 @@ section {
 
 #nav1
 {
-    background-color: #fff; /*whichever you want*/
+    background-color: #fff;
     opacity: 0.96;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 2%;
+.navbar-brand {
+  display: contents;
 }
 
-.navbrand-small{
-  font-size: 1.2rem;
+.navbar-brand-image {
+  width: 15%;
 }
 
 .nav-btn{
@@ -68,66 +59,59 @@ section {
 }
 
 /* Section-Form */
-/*Student Plan Heading*/
-h3 {
+/*Professional Plan Heading*/
+h3{
   margin-top: 30px;
   color: #0070f4;
   text-align: center;
   padding-bottom: 1%;
-  /* position: relative;
-  right: 30px; */
 }
 
-/*Overall Form Styling*/
-#form {
-  background-color: #fafafa;
+#form{
+  background-color:  #fafafa;
   text-align: center;
 }
 
-.form {
-  margin: 5% 5% 10% 10%;
-  background-color: White;
+.form{
+  margin:5% 5% 10% 10%;
+  background-color:White;
   padding-bottom: 80px;
 }
 
-fieldset {
-  margin: 1%;
-}
-
-/*Text Box styling */
 .ip-box {
   background-color: #CDF0EA;
-  padding: 1.5% 2%;
+  padding:1.5% 2%;
   margin: 1.2%;
   border-radius: 7px;
-  border: 0;
-  /* position: relative;
-  left: 170px; */
+  border:0;
 }
 
-::placeholder {
+::placeholder{
   color: #2940D3;
   opacity: 1;
   font-size: 12px;
 }
 
+fieldset{
+margin: 1%;
+}
 
+.template-choose{
+  color: #2940D3;
+  text-align: center;
+}
 
-/* Text to book conferencing call */
-.finalstep-text {
+p{
   margin-top: 25px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-/*submit button*/
-.submit-btn {
+.submit-btn{
   margin-top: 50px;
   font-size: 15px;
   border-radius: 10px;
   padding: 8px 40px;
-  /* position: relative;
-  left: 380px; */
 }
 
 /* ---------------Section - Footer----------- */
@@ -155,6 +139,7 @@ fieldset {
   font-weight: 900;
 }
 
+
 /* ---------------Media Queries----------- */
 @media (max-width: 1330px) {
   .navbar{
@@ -163,25 +148,41 @@ fieldset {
 }
 
 @media (max-width: 992px){
+  body{
+    padding-top: 12vh;
+  }
+
+  section{
+    padding: 0 3%;
+  }
 
   /* ------Section: Navbar------ */
-  .nav-item{
+  .nav-item {
     padding: 3vh 23px;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 1.5rem;
   }
 
-/* ----Input Boxes----- */
-.txt-box{
-  max-width:37.5vw;
-  max-height:17vh ;
-}
-.txt-box.sm{
-  max-width: 37.5vw;
-  max-height: 3vh;
-}
+  .navbar-brand-image {
+    width: 30%;
+  }
+
+  /* ------Section: Form------ */
+  .form {
+    margin: 2%;
+    padding-bottom: 5%;
+  }
+
+  .calendly-inline-widget{
+    width: 95%;
+    margin: auto;
+  }
+
+  .ip-box {
+    max-width: 100%
+  }
 
   /* ------Section: Footer------ */
   .para-foot{
@@ -197,9 +198,6 @@ fieldset {
     display: block;
   }
 
-
-
 }
-
 
 /*END*/
