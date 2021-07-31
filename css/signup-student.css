@@ -31,15 +31,12 @@ section {
     opacity: 0.96;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 2%;
+.navbar-brand {
+  display: contents;
 }
 
-.navbrand-small{
-  font-size: 1.2rem;
+.navbar-brand-image {
+  width: 15%;
 }
 
 .nav-btn{
@@ -117,15 +114,16 @@ fieldset {
   margin-top: 10px;
 }
 
+.template-div {
+  /* position: relative;
+  left: 180px; */
+}
 
 .template-text {
   color: #2940D3;
   font: 13px;
 }
 
-table{
-  margin-left: 23%;
-}
 td {
   padding: 0 15px;
 }
@@ -187,24 +185,21 @@ td {
 }
 
 @media (max-width: 992px){
+  body{
+    padding-top: 12vh;
+  }
 
   /* ------Section: Navbar------ */
-  .nav-item{
+  .nav-item {
     padding: 3vh 23px;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 1.5rem;
   }
 
-  /* ----Input Boxes----- */
-  .txt-box{
-    max-width:37.5vw;
-    max-height:17vh ;
-  }
-  .txt-box.sm{
-    max-width: 37.5vw;
-    max-height: 3vh;
+  .navbar-brand-image {
+    width: 30%;
   }
 
   /* ------Section: Footer------ */
