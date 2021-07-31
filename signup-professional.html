@@ -10,10 +10,8 @@
   <title>Online Profile | OneYou</title>
 
   <!-- Import Bootstrap along with required JavaScript-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <!-- Import CSS-->
   <link rel="stylesheet" href="css\signup-professional.css">
@@ -34,7 +32,7 @@
 
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav1">
-    <a class="navbar-brand" href="index.html">OneYou<span class="navbrand-small">.in</span></a>
+    <a class="navbar-brand" href="index.html"> <img class="navbar-brand-image" src="images/logo.svg" alt="OneYou Logo"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -44,13 +42,13 @@
           <a class="nav-link" href="index.html#pricing">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html#livepages">Live Pages</a>
+          <a class="nav-link" href="index.html#live-pages">Live Pages</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.html">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.htmlfeatures.html">Features</a>
+          <a class="nav-link" href="features.html">Features</a>
         </li>
         <li class="nav-item">
           <button class="btn nav-btn btn-sm btn-primary" type="button" name="button"> <a class="nav-link" href="sign-up.html">Start Free Trial</a></button>
@@ -61,31 +59,31 @@
 
   <!-- Section - Form (to take input from user about his portfolio)-->
   <section id="form">
-    <div class="container">
+    <div class="container-fluid">
 
       <form class="form" action="YamparalaMedia@gmail.com" method="post">
-        <fieldset class="container-fluid">
+        <fieldset>
           <h3>Professional Plan Registration</h3>
           <input class="ip-box" type="text" name="name" placeholder="Name" required>
           <input class="ip-box" type="text" name="tagline" placeholder="Tagline *Web Designer etc" required>
           <br>
           <input class="ip-box" type="text" name="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
-          <input class="ip-box" type="tel" name="number" placeholder="Whatsapp " required pattern=[0-9]{3}[0-9]{4}[0-9]{3} min="0000000000" max="9999999999">
-          <input class="ip-box txt-box" name="About You" placeholder="About You " required style="height: 17vh; width: 37vw;">
-          <input class="ip-box txt-box" name="Education" placeholder="Education " required style="height: 17vh; width: 37vw;">
-          <input class="ip-box txt-box-sm" name="Skills" placeholder="Skills " required style="height: 10vh; width: 37vw;">
-          <input class="ip-box txt-box-sm" name="Projects" placeholder="Projects " required style="height: 10vh; width: 37vw;">
+        <input class="ip-box" type="tel" name="number" placeholder="Whatsapp " required pattern=[0-9]{3}[0-9]{4}[0-9]{3} min="0000000000" max="9999999999">
+          <textarea class="ip-box" name="About You" placeholder="About You " rows="3" cols="49" required></textarea>
+          <textarea class="ip-box" name="Education" placeholder="Education" rows="3" cols="49" required></textarea>
+          <textarea class="ip-box" name="Skills" placeholder="Skills" rows="1" cols="49" required></textarea>
+          <textarea class="ip-box" name="Projects" placeholder="Projects" rows="1" cols="49" required></textarea>
 
-          <p>Now the final step, 👇 please schedule a call with our designer. to understand your need</p>
-          <!-- Calendly inline widget begin -->
-          <div class="calendly-inline-widget" data-url="https://calendly.com/yamparalamedia/oneyou" style="min-width:320px;height:630px;padding-bottom:40px"></div>
-          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-          <!-- Calendly inline widget end -->
+        <p>Now the final step, 👇 please schedule a call with our designer. to understand your need</p>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/yamparalamedia/oneyou" style="min-width:320px;height:630px;padding-bottom:40px"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
 
-          <!-- Submit button -->
-          <button class="btn submit-btn btn-lg btn-primary" type="button" name="button">Submit</button>
-        </fieldset>
-      </form>
+      <!-- Submit button -->
+      <button class="btn submit-btn btn-lg btn-primary" type="button" name="button">Submit</button>
+    </fieldset>
+  </form>
     </div>
   </section>
   <!-- Footer -->
@@ -94,13 +92,14 @@
       <div class="row">
         <div class="col-md-8">
           <p class="para-foot">© 2025 OneYou.in. All Rights Reserved.</p>
-          <p class="para-foot">Contact Details - Email - YamparalaMedia@gmail.com</p>
+          <p class="para-foot foot-email">Contact Details - Email - YamparalaMedia@gmail.com</p>
         </div>
-        <div class="col div-foot-center-aligned">
+        <div class="col-md-4 div-foot-center-aligned">
           <p class="para-foot">Made with love by&nbsp<a class="link-foot" href="https://twitter.com/yamparalarahul1" target="_blank">Rahul</a>&nbspfrom 🏠</p>
         </div>
       </div>
     </div>
-</body>
+  </section>
+  </body>
 
 </html>
