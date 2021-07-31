@@ -19,15 +19,12 @@ body{
     opacity: 0.96;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 2%;
+.navbar-brand {
+  display: contents;
 }
 
-.navbrand-small{
-  font-size: 1.2rem;
+.navbar-brand-image {
+  width: 15%;
 }
 
 .nav-btn{
@@ -197,12 +194,16 @@ body{
   }
 
   /* ------Section: Navbar------ */
-  .nav-item{
+  .nav-item {
     padding: 3vh 23px;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 1.5rem;
+  }
+
+  .navbar-brand-image {
+    width: 30%;
   }
 
   /* ------Section: Title------ */
