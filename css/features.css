@@ -52,6 +52,7 @@ body{
   text-align: center;
 }
 
+
 /* ---------------Section - Title----------- */
 
 #title{
@@ -193,12 +194,16 @@ body{
   }
 
   /* ------Section: Navbar------ */
-  .nav-item{
+  .nav-item {
     padding: 3vh 23px;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 1.5rem;
+  }
+
+  .navbar-brand-image {
+    width: 30%;
   }
 
   /* ------Section: Title------ */
