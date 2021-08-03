@@ -1,12 +1,15 @@
+
 /* -----------Common CSS------------- */
 body {
   font-family: "Comfortaa";
+
   margin: 0;
 }
 
 section {
-  padding: 7%;
+  margin: 0 2%;
 }
+
 
 .section-heading {
   text-align: center;
@@ -61,6 +64,12 @@ section {
 }
 
 /* About */
+
+#what-why-who{
+  padding: 3% 5%;
+  margin: 3%;
+}
+
 /* what */
 .what {
   margin: 50px 80px;
@@ -346,7 +355,7 @@ section {
 .boxed-live {
   border: 3px solid #e8e6e6;
   border-radius: 15px;
-  margin: 50px 1px 20px 80px;
+  margin: 50px 0 20px 60px;
   padding: 10px;
   box-sizing: border-box;
   width: 82%;
