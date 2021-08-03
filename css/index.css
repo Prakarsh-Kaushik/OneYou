@@ -20,56 +20,52 @@ section{
 }
 
 /* ---------------Navbar-------------- */
-
-.navbar{
-  padding-left: 13.7%;
-  padding-right: 13.7%;
-  height: 85px;
+.navbar {
+  padding: 2% 13.7%;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-#nav1
-{
-    background-color: #fff; /*whichever you want*/
-    opacity: 0.96;
+#nav1 {
+  background-color: #fff;
+  opacity: 0.96;
 }
 
-.navbar-brand{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-right: 2%;
+.navbar-brand {
+  display: contents;
 }
 
-.navbrand-small{
-  font-size: 1.2rem;
+.navbar-brand-image {
+  width: 15%;
 }
 
-.nav-btn{
+.nav-btn {
   border-radius: 35px;
   background-color: #0070f4;
   padding: 5px 15px;
 }
 
-.nav-btn a.nav-link{
+.nav-btn a.nav-link {
   color: #fff !important;
   font-size: 0.9rem;
   padding: 0;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 23px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.1rem;
 }
 
-.navbar-collapse{
+.nav-item-button{
+  padding-right: 0;
+}
+
+.navbar-collapse {
   background-color: white;
   text-align: center;
 }
-
 /* ---------------Whatsapp Float----------- */
 .whatsapp-float{
   position: fixed;
@@ -89,8 +85,8 @@ section{
   text-align: center;
 
   background-image: url("../images/title-background.png");
-  background-size: 42% 37%;
-  background-position: -50% 3%;
+  background-size: 40% 37%;
+  background-position: -45% 3%;
   background-repeat: no-repeat;
 }
 
