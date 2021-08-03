@@ -105,6 +105,10 @@ fieldset {
 }
 
 /* Template buttons styling */
+.template-div table{
+  margin-left: 22%;
+}
+
 .template-choose {
   color: #2940D3;
   margin-top: 10px;
@@ -194,7 +198,7 @@ td {
   .navbar-brand-image {
     width: 30%;
   }
-    
+
   /* ------Section: Form------ */
   .form {
     margin: 2%;
@@ -208,6 +212,10 @@ td {
 
   .ip-box {
     max-width: 100%
+  }
+
+  .template-div table{
+    margin: auto;
   }
 
   /* ------Section: Footer------ */
