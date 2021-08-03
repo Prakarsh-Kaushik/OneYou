@@ -183,8 +183,8 @@ body{
 
 /* ---------------Media Queries----------- */
 @media (max-width: 1330px) {
-  .navbar{
-    padding: 0 8%;
+  .navbar {
+    padding: 2.5% 8%;
   }
 }
 
