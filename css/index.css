@@ -21,12 +21,15 @@ section {
 
 /* ---------------Navbar-------------- */
 .navbar {
-  padding: 2% 13.7%;
+  padding-left: 13.7%;
+  padding-right: 13.7%;
+  height: 85px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 #nav1 {
   background-color: #fff;
+  /*whichever you want*/
   opacity: 0.96;
 }
 
@@ -58,10 +61,6 @@ section {
   font-size: 1.1rem;
 }
 
-.nav-item-button{
-  padding-right: 0;
-}
-
 .navbar-collapse {
   background-color: white;
   text-align: center;
@@ -84,8 +83,8 @@ section {
   background-color: White;
   text-align: center;
   background-image: url("../images/title-background.png");
-  background-size: 40% 37%;
-  background-position: -45% 3%;
+  background-size: 42% 37%;
+  background-position: -50% 3%;
   background-repeat: no-repeat;
 }
 
@@ -523,7 +522,7 @@ section {
 /* ---------------Media Queries----------- */
 @media (max-width: 1330px) {
   .navbar {
-    padding: 3% 8%;
+    padding: 0 8%;
   }
 }
 
