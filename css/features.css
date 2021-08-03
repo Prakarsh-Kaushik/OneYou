@@ -52,6 +52,7 @@ body{
   text-align: center;
 }
 
+
 /* ---------------Section - Title----------- */
 
 #title{
@@ -182,8 +183,8 @@ body{
 
 /* ---------------Media Queries----------- */
 @media (max-width: 1330px) {
-  .navbar{
-    padding: 0 8%;
+  .navbar {
+    padding: 2.5% 8%;
   }
 }
 
@@ -193,12 +194,16 @@ body{
   }
 
   /* ------Section: Navbar------ */
-  .nav-item{
+  .nav-item {
     padding: 3vh 23px;
   }
 
-  .nav-link{
+  .nav-link {
     font-size: 1.5rem;
+  }
+
+  .navbar-brand-image {
+    width: 30%;
   }
 
   /* ------Section: Title------ */
